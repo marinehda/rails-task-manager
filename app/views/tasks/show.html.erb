@@ -1,0 +1,10 @@
+<h1>Task infos</h1>
+
+<%= @task.name %>
+<br>
+<%= @task.done == true ? 'done' : 'to be done' %>
+<br>
+<%= @task.created_at %>
+<br>
+
+<%= link_to('Back', tasks_path) %>
